@@ -1,11 +1,11 @@
 from datetime import datetime
-from .Sudoku import Sudoku
+from .Tango import Tango
 
 
 class AbstractSolver:
     __solver_name__ = "Abstract Solver"
 
-    def __init__(self, grid: Sudoku):
+    def __init__(self, grid: Tango):
         self.grid = grid
         self.__start_at = None
         self.__end_at = None

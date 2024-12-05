@@ -1,4 +1,4 @@
-from .Sudoku import Sudoku
+from .Tango import Tango, Cell, Constraint
 from .AbstractSolver import AbstractSolver
 
-__all__ = ["Sudoku", "AbstractSolver"]
+__all__ = ["Cell", "Constraint", "Tango", "AbstractSolver"]
